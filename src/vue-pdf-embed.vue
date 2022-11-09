@@ -23,6 +23,8 @@
             @touchstart="handleEvent"
             @touchend="handleEvent"
             @touchmove="handleEvent"
+            @wheel="handleEvent"
+            @scroll="handleEvent"
         />
 
       <div v-if="!disableTextLayer" class="textLayer" />
